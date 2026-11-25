@@ -1,0 +1,50 @@
+/* Design tokens theo base/03 mục 2 (hệ thống thiết kế Vsights bản 2, xanh than) và canvas UX-010. */
+:root {
+  --mau-chinh: #1e3a5f;
+  --mau-chinh-dam: #172e4b;
+  --chu: #0f172a;
+  --chu-than: #334155;
+  --chu-vua: #475569;
+  --chu-phu: #64748b;
+  --vien: #e2e8f0;
+  --vien-o: #cbd5e1;
+  --nen-trang: #f8fafc;
+  --nen-nhat: #f5f8fc;
+  --nen-nhan: #e8eef5;
+  --vien-chon: #c9d6e5;
+  --nen-anh: #dde5ef;
+  --sao: #f59e0b;
+  --canh-bao: #b45309;
+  --nen: #ffffff;
+  --tot-nen: #dcfce7;
+  --tot-chu: #166534;
+  --vang-nen: #fef3c7;
+  --vang-chu: #92400e;
+  --loi-nen: #fee2e2;
+  --loi-chu: #b91c1c;
+
+  --font-tieu-de: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-noi-dung: 'Be Vietnam Pro', system-ui, sans-serif;
+
+  --bo-o: 16px;
+  --bo-the: 20px;
+  --bo-anh: 24px;
+  --cao-nut: 52px;
+  --le-trang: 40px;
+  --rong-noi-dung: 1240px;
+  --cao-thanh-tab: 72px;
+}
+
+/* UX-011: ≤ 767 px điện thoại (bố cục M-xx) · 768–1199 px máy tính bảng · ≥ 1200 px máy tính (W-xx). */
+@media (max-width: 1199px) {
+  :root {
+    --le-trang: 28px;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    --cao-nut: 48px;
+    --bo-anh: 20px;
+    --le-trang: 16px;
+  }
+}

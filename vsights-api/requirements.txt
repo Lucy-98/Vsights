@@ -1,0 +1,13 @@
+# Phiên bản theo mốc SA-007 / base/02 (FastAPI 0.162, SQLAlchemy 2.1) — B-021, SA-014
+fastapi==0.162.7
+uvicorn[standard]==0.54.0
+SQLAlchemy==2.1.9
+psycopg[binary]==3.2.13
+pydantic==2.14.3
+pydantic-settings==2.16.3
+email-validator>=2.2
+PyJWT==2.15.1
+argon2-cffi==25.1.0
+# kiểm thử
+pytest==9.2.0
+httpx==0.28.1
